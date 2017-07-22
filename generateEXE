@@ -1,0 +1,16 @@
+
+#-*-coding:utf8-*-
+
+__anthor__ = 'ice wolf'
+
+from distutils.core import setup  
+import py2exe  
+
+options = { "py2exe": {
+                "includes": ["wxpy"],
+                "compressed": 1,     
+                "optimize": 2,      
+                "bundle_files": 1 
+          }}
+
+setup(windows = ['wxTest.py'], options = options)
