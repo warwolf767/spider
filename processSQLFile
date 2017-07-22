@@ -1,0 +1,13 @@
+
+#-*-coding:utf8-*-
+
+__anthor__ = 'ice wolf'
+
+T = open("sql.sql",'w')
+for x in xrange(1,239):
+	filename = "sqlll--" + str(x) + ".sql"
+	target = open(filename, 'a+')
+	T.write(target.read())
+	T.write('\n')
+	target.close()
+T.close()
