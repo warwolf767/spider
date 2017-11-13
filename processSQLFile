@@ -1,7 +1,7 @@
 
 #-*-coding:utf8-*-
 
-__anthor__ = 'ice wolf'
+__author__ = 'ice wolf'
 
 T = open("sql.sql",'w')
 for x in xrange(1,239):
