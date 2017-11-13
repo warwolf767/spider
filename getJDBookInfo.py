@@ -1,7 +1,7 @@
 
 #-*-coding:utf8-*-
 
-__anthor__ = 'ice wolf'
+__author__ = 'ice wolf'
 
 import re
 import urllib
